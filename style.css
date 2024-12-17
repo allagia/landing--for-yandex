@@ -230,7 +230,7 @@ h1, h2, h3, h4, p {
 }
 
 .texture-layer {
-  background-image: url("../img/bg@1x.webp");
+  background-image: url("img/bg@1x.webp");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -418,13 +418,13 @@ h1, h2, h3, h4, p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('../img/bg-2@1x.webp') repeat; /* Текстура */
+  background: url('img/bg-2@1x.webp') repeat; /* Текстура */
   background-size: cover;
-  mask-image: url('../img/player@1x.webp'); /* Маска из изображения */
+  mask-image: url('img/player@1x.webp'); /* Маска из изображения */
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: 100% 100%;
-  -webkit-mask-image: url('../img/player@1x.webp');
+  -webkit-mask-image: url('img/player@1x.webp');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: 100% 100%;
@@ -455,7 +455,7 @@ h1, h2, h3, h4, p {
 }
 
 .event__item--lecture .image-layer {
-  background-image: url("../img/players@1x.webp"); 
+  background-image: url("img/players@1x.webp"); 
 }
 
 
@@ -532,6 +532,7 @@ h1, h2, h3, h4, p {
   position: relative;
   padding-top: 80px;
   padding-bottom: 200px;
+  overflow: hidden;
 }
 .stages__title-wrap {
   position: relative;
@@ -609,7 +610,7 @@ h1, h2, h3, h4, p {
 }
 
 .stages__item .image-layer {
-  background-image: url("../img/stamp-paper@1x.webp");
+  background-image: url("img/stamp-paper@1x.webp");
 }
 
 .stages__img {
@@ -720,7 +721,7 @@ h1, h2, h3, h4, p {
   color: #fff;
   background-color: #1f1f1f;
   border-radius: 50%;
-  background-image: url("../img/arrow.svg");
+  background-image: url("img/arrow.svg");
   background-repeat: no-repeat;
   background-size: 12px 20px;
   background-position: center;
@@ -823,15 +824,15 @@ h1, h2, h3, h4, p {
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .texture-layer {
-    background-image: url("../img/bg@2x.webp");
+    background-image: url("img/bg@2x.webp");
   }
 
   .event__item--lecture .image-layer {
-    background-image: url("../img/players@2x.webp"); 
+    background-image: url("img/players@2x.webp"); 
   }
 
   .stages__item .image-layer {
-    background-image: url("../img/stamp-paper@2x.webp");
+    background-image: url("img/stamp-paper@2x.webp");
   }
 }
 
